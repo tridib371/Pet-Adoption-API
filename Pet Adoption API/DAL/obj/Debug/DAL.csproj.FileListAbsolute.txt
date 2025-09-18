@@ -1,0 +1,6 @@
+G:\AIUB\AIUB\11th Semester\Advanced .Net\Pet Adoption API\Pet Adoption API\DAL\bin\Debug\DAL.dll
+G:\AIUB\AIUB\11th Semester\Advanced .Net\Pet Adoption API\Pet Adoption API\DAL\bin\Debug\DAL.pdb
+G:\AIUB\AIUB\11th Semester\Advanced .Net\Pet Adoption API\Pet Adoption API\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+G:\AIUB\AIUB\11th Semester\Advanced .Net\Pet Adoption API\Pet Adoption API\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+G:\AIUB\AIUB\11th Semester\Advanced .Net\Pet Adoption API\Pet Adoption API\DAL\obj\Debug\DAL.dll
+G:\AIUB\AIUB\11th Semester\Advanced .Net\Pet Adoption API\Pet Adoption API\DAL\obj\Debug\DAL.pdb
