@@ -1,54 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "G:\\AIUB\\AIUB\\11th Semester\\Advanced .Net\\Pet Adoption API\\Pet Adoption API\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{BDC79062-779A-4C58-A531-CFC58420D8D0}|DAL\\DAL.csproj|g:\\aiub\\aiub\\11th semester\\advanced .net\\pet adoption api\\pet adoption api\\dal\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BDC79062-779A-4C58-A531-CFC58420D8D0}|DAL\\DAL.csproj|solutionrelative:dal\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5A082D0A-50F9-4302-A544-EEF54D7E534E}|BLL\\BLL.csproj|g:\\aiub\\aiub\\11th semester\\advanced .net\\pet adoption api\\pet adoption api\\bll\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5A082D0A-50F9-4302-A544-EEF54D7E534E}|BLL\\BLL.csproj|solutionrelative:bll\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 1,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedHeight": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "G:\\AIUB\\AIUB\\11th Semester\\Advanced .Net\\Pet Adoption API\\Pet Adoption API\\DAL\\Class1.cs",
-              "RelativeDocumentMoniker": "DAL\\Class1.cs",
-              "ToolTip": "G:\\AIUB\\AIUB\\11th Semester\\Advanced .Net\\Pet Adoption API\\Pet Adoption API\\DAL\\Class1.cs",
-              "RelativeToolTip": "DAL\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T15:09:26.074Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "G:\\AIUB\\AIUB\\11th Semester\\Advanced .Net\\Pet Adoption API\\Pet Adoption API\\BLL\\Class1.cs",
-              "RelativeDocumentMoniker": "BLL\\Class1.cs",
-              "ToolTip": "G:\\AIUB\\AIUB\\11th Semester\\Advanced .Net\\Pet Adoption API\\Pet Adoption API\\BLL\\Class1.cs",
-              "RelativeToolTip": "BLL\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T15:08:40.107Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }
