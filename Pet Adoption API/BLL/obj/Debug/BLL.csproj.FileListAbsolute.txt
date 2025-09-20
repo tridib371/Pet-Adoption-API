@@ -7,3 +7,8 @@ G:\AIUB\AIUB\11th Semester\Advanced .Net\Pet Adoption API\Pet Adoption API\BLL\o
 G:\AIUB\AIUB\11th Semester\Advanced .Net\Pet Adoption API\Pet Adoption API\BLL\obj\Debug\BLL.csproj.Up2Date
 G:\AIUB\AIUB\11th Semester\Advanced .Net\Pet Adoption API\Pet Adoption API\BLL\obj\Debug\BLL.dll
 G:\AIUB\AIUB\11th Semester\Advanced .Net\Pet Adoption API\Pet Adoption API\BLL\obj\Debug\BLL.pdb
+G:\AIUB\AIUB\11th Semester\Advanced .Net\Pet Adoption API\Pet Adoption API\BLL\bin\Debug\AutoMapper.dll
+G:\AIUB\AIUB\11th Semester\Advanced .Net\Pet Adoption API\Pet Adoption API\BLL\bin\Debug\EntityFramework.dll
+G:\AIUB\AIUB\11th Semester\Advanced .Net\Pet Adoption API\Pet Adoption API\BLL\bin\Debug\DAL.dll.config
+G:\AIUB\AIUB\11th Semester\Advanced .Net\Pet Adoption API\Pet Adoption API\BLL\bin\Debug\AutoMapper.xml
+G:\AIUB\AIUB\11th Semester\Advanced .Net\Pet Adoption API\Pet Adoption API\BLL\bin\Debug\EntityFramework.xml

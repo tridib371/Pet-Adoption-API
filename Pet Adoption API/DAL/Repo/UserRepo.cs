@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace DAL.Repos
 {
-    internal class UserRepo : IRepo<User, int, bool>
+    internal class UserRepo : IRepo<User, int, User>, IUserF
     {
         PAContext db;
 
@@ -18,10 +18,11 @@ namespace DAL.Repos
             db = new PAContext();
         }
 
-        public bool Create(User obj)
+        public User Create(User obj)
         {
             db.Users.Add(obj);
-            return db.SaveChanges() > 0;
+            db.SaveChanges();
+            return obj;
         }
 
         public bool Delete(int id)
@@ -43,13 +44,43 @@ namespace DAL.Repos
             return db.Users.ToList();
         }
 
-        public bool Update(User obj)
+        public User Update(User obj)
         {
-            var exobj = Get(obj.UserId);
-            if (exobj == null) return false;
+            var exobj = Get(obj.UserId); // tracked entity
+            if (exobj == null) return null;
 
-            db.Entry(exobj).CurrentValues.SetValues(obj);
-            return db.SaveChanges() > 0;
+            // Update only fields explicitly
+            exobj.FullName = obj.FullName;
+            exobj.Email = obj.Email;
+            exobj.PhoneNumber = obj.PhoneNumber;
+            exobj.PasswordHash = obj.PasswordHash;
+            exobj.Role = obj.Role;
+            exobj.UpdatedAt = obj.UpdatedAt;
+
+            db.SaveChanges();
+            return exobj;
         }
+
+        public User Patch(int id, User obj)
+        {
+            var exobj = Get(id); // tracked entity
+            if (exobj == null) return null;
+
+            // Update only non-null fields
+            if (!string.IsNullOrEmpty(obj.FullName)) exobj.FullName = obj.FullName;
+            if (!string.IsNullOrEmpty(obj.Email)) exobj.Email = obj.Email;
+            if (!string.IsNullOrEmpty(obj.PhoneNumber)) exobj.PhoneNumber = obj.PhoneNumber;
+            if (!string.IsNullOrEmpty(obj.PasswordHash)) exobj.PasswordHash = obj.PasswordHash;
+            if (!string.IsNullOrEmpty(obj.Role)) exobj.Role = obj.Role;
+
+            exobj.UpdatedAt = DateTime.Now;
+
+            db.SaveChanges();
+            return exobj;
+        }
+
+
+
+
     }
 }

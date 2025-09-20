@@ -67,3 +67,12 @@ G:\AIUB\AIUB\11th Semester\Advanced .Net\Pet Adoption API\Pet Adoption API\Pet A
 G:\AIUB\AIUB\11th Semester\Advanced .Net\Pet Adoption API\Pet Adoption API\Pet Adoption API\obj\Debug\Pet Adop.08F45754.Up2Date
 G:\AIUB\AIUB\11th Semester\Advanced .Net\Pet Adoption API\Pet Adoption API\Pet Adoption API\obj\Debug\Pet Adoption API.dll
 G:\AIUB\AIUB\11th Semester\Advanced .Net\Pet Adoption API\Pet Adoption API\Pet Adoption API\obj\Debug\Pet Adoption API.pdb
+G:\AIUB\AIUB\11th Semester\Advanced .Net\Pet Adoption API\Pet Adoption API\Pet Adoption API\bin\EntityFramework.dll
+G:\AIUB\AIUB\11th Semester\Advanced .Net\Pet Adoption API\Pet Adoption API\Pet Adoption API\bin\EntityFramework.SqlServer.dll
+G:\AIUB\AIUB\11th Semester\Advanced .Net\Pet Adoption API\Pet Adoption API\Pet Adoption API\bin\AutoMapper.dll
+G:\AIUB\AIUB\11th Semester\Advanced .Net\Pet Adoption API\Pet Adoption API\Pet Adoption API\bin\DAL.dll
+G:\AIUB\AIUB\11th Semester\Advanced .Net\Pet Adoption API\Pet Adoption API\Pet Adoption API\bin\EntityFramework.xml
+G:\AIUB\AIUB\11th Semester\Advanced .Net\Pet Adoption API\Pet Adoption API\Pet Adoption API\bin\EntityFramework.SqlServer.xml
+G:\AIUB\AIUB\11th Semester\Advanced .Net\Pet Adoption API\Pet Adoption API\Pet Adoption API\bin\AutoMapper.xml
+G:\AIUB\AIUB\11th Semester\Advanced .Net\Pet Adoption API\Pet Adoption API\Pet Adoption API\bin\DAL.pdb
+G:\AIUB\AIUB\11th Semester\Advanced .Net\Pet Adoption API\Pet Adoption API\Pet Adoption API\bin\DAL.dll.config

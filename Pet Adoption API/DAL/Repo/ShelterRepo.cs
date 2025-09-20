@@ -4,12 +4,10 @@ using DAL.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DAL.Repos
 {
-    internal class ShelterRepo : IRepo<Shelter, int, bool>
+    internal class ShelterRepo : IRepo<Shelter, int, Shelter>
     {
         PAContext db;
 
@@ -18,10 +16,11 @@ namespace DAL.Repos
             db = new PAContext();
         }
 
-        public bool Create(Shelter obj)
+        public Shelter Create(Shelter obj)
         {
             db.Shelters.Add(obj);
-            return db.SaveChanges() > 0;
+            db.SaveChanges();
+            return obj;
         }
 
         public bool Delete(int id)
@@ -43,13 +42,14 @@ namespace DAL.Repos
             return db.Shelters.ToList();
         }
 
-        public bool Update(Shelter obj)
+        public Shelter Update(Shelter obj)
         {
             var exobj = Get(obj.ShelterId);
-            if (exobj == null) return false;
+            if (exobj == null) return null;
 
             db.Entry(exobj).CurrentValues.SetValues(obj);
-            return db.SaveChanges() > 0;
+            db.SaveChanges();
+            return exobj;
         }
     }
 }

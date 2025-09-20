@@ -3,36 +3,16 @@
   "WorkspaceRootPath": "G:\\AIUB\\AIUB\\11th Semester\\Advanced .Net\\Pet Adoption API\\Pet Adoption API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BDC79062-779A-4C58-A531-CFC58420D8D0}|DAL\\DAL.csproj|g:\\aiub\\aiub\\11th semester\\advanced .net\\pet adoption api\\pet adoption api\\dal\\migrations\\202509191513361_initdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BDC79062-779A-4C58-A531-CFC58420D8D0}|DAL\\DAL.csproj|solutionrelative:dal\\migrations\\202509191513361_initdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5428B28C-91F4-479F-918E-0C68F8C1FA38}|Pet Adoption API\\Pet Adoption API.csproj|g:\\aiub\\aiub\\11th semester\\advanced .net\\pet adoption api\\pet adoption api\\pet adoption api\\controllers\\adoptioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5428B28C-91F4-479F-918E-0C68F8C1FA38}|Pet Adoption API\\Pet Adoption API.csproj|solutionrelative:pet adoption api\\controllers\\adoptioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BDC79062-779A-4C58-A531-CFC58420D8D0}|DAL\\DAL.csproj|g:\\aiub\\aiub\\11th semester\\advanced .net\\pet adoption api\\pet adoption api\\dal\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BDC79062-779A-4C58-A531-CFC58420D8D0}|DAL\\DAL.csproj|solutionrelative:dal\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5A082D0A-50F9-4302-A544-EEF54D7E534E}|BLL\\BLL.csproj|G:\\AIUB\\AIUB\\11th Semester\\Advanced .Net\\Pet Adoption API\\Pet Adoption API\\bll\\services\\adoptionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A082D0A-50F9-4302-A544-EEF54D7E534E}|BLL\\BLL.csproj|solutionrelative:bll\\services\\adoptionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BDC79062-779A-4C58-A531-CFC58420D8D0}|DAL\\DAL.csproj|g:\\aiub\\aiub\\11th semester\\advanced .net\\pet adoption api\\pet adoption api\\dal\\ef\\tables\\shelter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BDC79062-779A-4C58-A531-CFC58420D8D0}|DAL\\DAL.csproj|solutionrelative:dal\\ef\\tables\\shelter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BDC79062-779A-4C58-A531-CFC58420D8D0}|DAL\\DAL.csproj|g:\\aiub\\aiub\\11th semester\\advanced .net\\pet adoption api\\pet adoption api\\dal\\ef\\tables\\pet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BDC79062-779A-4C58-A531-CFC58420D8D0}|DAL\\DAL.csproj|solutionrelative:dal\\ef\\tables\\pet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BDC79062-779A-4C58-A531-CFC58420D8D0}|DAL\\DAL.csproj|g:\\aiub\\aiub\\11th semester\\advanced .net\\pet adoption api\\pet adoption api\\dal\\ef\\tables\\adoption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BDC79062-779A-4C58-A531-CFC58420D8D0}|DAL\\DAL.csproj|solutionrelative:dal\\ef\\tables\\adoption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BDC79062-779A-4C58-A531-CFC58420D8D0}|DAL\\DAL.csproj|g:\\aiub\\aiub\\11th semester\\advanced .net\\pet adoption api\\pet adoption api\\dal\\ef\\tables\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BDC79062-779A-4C58-A531-CFC58420D8D0}|DAL\\DAL.csproj|solutionrelative:dal\\ef\\tables\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BDC79062-779A-4C58-A531-CFC58420D8D0}|DAL\\DAL.csproj|g:\\aiub\\aiub\\11th semester\\advanced .net\\pet adoption api\\pet adoption api\\dal\\ef\\pacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BDC79062-779A-4C58-A531-CFC58420D8D0}|DAL\\DAL.csproj|solutionrelative:dal\\ef\\pacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5428B28C-91F4-479F-918E-0C68F8C1FA38}|Pet Adoption API\\Pet Adoption API.csproj|g:\\aiub\\aiub\\11th semester\\advanced .net\\pet adoption api\\pet adoption api\\pet adoption api\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{5428B28C-91F4-479F-918E-0C68F8C1FA38}|Pet Adoption API\\Pet Adoption API.csproj|solutionrelative:pet adoption api\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{5A082D0A-50F9-4302-A544-EEF54D7E534E}|BLL\\BLL.csproj|G:\\AIUB\\AIUB\\11th Semester\\Advanced .Net\\Pet Adoption API\\Pet Adoption API\\bll\\dtos\\adoptiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A082D0A-50F9-4302-A544-EEF54D7E534E}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\adoptiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -47,105 +27,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "202509191513361_InitDB.cs",
-              "DocumentMoniker": "G:\\AIUB\\AIUB\\11th Semester\\Advanced .Net\\Pet Adoption API\\Pet Adoption API\\DAL\\Migrations\\202509191513361_InitDB.cs",
-              "RelativeDocumentMoniker": "DAL\\Migrations\\202509191513361_InitDB.cs",
-              "ToolTip": "G:\\AIUB\\AIUB\\11th Semester\\Advanced .Net\\Pet Adoption API\\Pet Adoption API\\DAL\\Migrations\\202509191513361_InitDB.cs",
-              "RelativeToolTip": "DAL\\Migrations\\202509191513361_InitDB.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "AdoptionController.cs",
+              "DocumentMoniker": "G:\\AIUB\\AIUB\\11th Semester\\Advanced .Net\\Pet Adoption API\\Pet Adoption API\\Pet Adoption API\\Controllers\\AdoptionController.cs",
+              "RelativeDocumentMoniker": "Pet Adoption API\\Controllers\\AdoptionController.cs",
+              "ToolTip": "G:\\AIUB\\AIUB\\11th Semester\\Advanced .Net\\Pet Adoption API\\Pet Adoption API\\Pet Adoption API\\Controllers\\AdoptionController.cs",
+              "RelativeToolTip": "Pet Adoption API\\Controllers\\AdoptionController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T15:13:50.502Z",
+              "WhenOpened": "2025-09-20T14:04:10.357Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Configuration.cs",
-              "DocumentMoniker": "G:\\AIUB\\AIUB\\11th Semester\\Advanced .Net\\Pet Adoption API\\Pet Adoption API\\DAL\\Migrations\\Configuration.cs",
-              "RelativeDocumentMoniker": "DAL\\Migrations\\Configuration.cs",
-              "ToolTip": "G:\\AIUB\\AIUB\\11th Semester\\Advanced .Net\\Pet Adoption API\\Pet Adoption API\\DAL\\Migrations\\Configuration.cs",
-              "RelativeToolTip": "DAL\\Migrations\\Configuration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "AdoptionService.cs",
+              "DocumentMoniker": "G:\\AIUB\\AIUB\\11th Semester\\Advanced .Net\\Pet Adoption API\\Pet Adoption API\\BLL\\Services\\AdoptionService.cs",
+              "RelativeDocumentMoniker": "BLL\\Services\\AdoptionService.cs",
+              "ToolTip": "G:\\AIUB\\AIUB\\11th Semester\\Advanced .Net\\Pet Adoption API\\Pet Adoption API\\BLL\\Services\\AdoptionService.cs",
+              "RelativeToolTip": "BLL\\Services\\AdoptionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T15:12:55.103Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Pet.cs",
-              "DocumentMoniker": "G:\\AIUB\\AIUB\\11th Semester\\Advanced .Net\\Pet Adoption API\\Pet Adoption API\\DAL\\EF\\Tables\\Pet.cs",
-              "RelativeDocumentMoniker": "DAL\\EF\\Tables\\Pet.cs",
-              "ToolTip": "G:\\AIUB\\AIUB\\11th Semester\\Advanced .Net\\Pet Adoption API\\Pet Adoption API\\DAL\\EF\\Tables\\Pet.cs",
-              "RelativeToolTip": "DAL\\EF\\Tables\\Pet.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAwwCEAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T15:02:44.908Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "User.cs",
-              "DocumentMoniker": "G:\\AIUB\\AIUB\\11th Semester\\Advanced .Net\\Pet Adoption API\\Pet Adoption API\\DAL\\EF\\Tables\\User.cs",
-              "RelativeDocumentMoniker": "DAL\\EF\\Tables\\User.cs",
-              "ToolTip": "G:\\AIUB\\AIUB\\11th Semester\\Advanced .Net\\Pet Adoption API\\Pet Adoption API\\DAL\\EF\\Tables\\User.cs",
-              "RelativeToolTip": "DAL\\EF\\Tables\\User.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAowB8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T15:00:12.311Z",
+              "WhenOpened": "2025-09-20T14:03:51.378Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Shelter.cs",
-              "DocumentMoniker": "G:\\AIUB\\AIUB\\11th Semester\\Advanced .Net\\Pet Adoption API\\Pet Adoption API\\DAL\\EF\\Tables\\Shelter.cs",
-              "RelativeDocumentMoniker": "DAL\\EF\\Tables\\Shelter.cs",
-              "ToolTip": "G:\\AIUB\\AIUB\\11th Semester\\Advanced .Net\\Pet Adoption API\\Pet Adoption API\\DAL\\EF\\Tables\\Shelter.cs",
-              "RelativeToolTip": "DAL\\EF\\Tables\\Shelter.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAkwCQAAAABAAAAAAAAAA==",
+              "Title": "AdoptionDTO.cs",
+              "DocumentMoniker": "G:\\AIUB\\AIUB\\11th Semester\\Advanced .Net\\Pet Adoption API\\Pet Adoption API\\BLL\\DTOs\\AdoptionDTO.cs",
+              "RelativeDocumentMoniker": "BLL\\DTOs\\AdoptionDTO.cs",
+              "ToolTip": "G:\\AIUB\\AIUB\\11th Semester\\Advanced .Net\\Pet Adoption API\\Pet Adoption API\\BLL\\DTOs\\AdoptionDTO.cs",
+              "RelativeToolTip": "BLL\\DTOs\\AdoptionDTO.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA5wA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T14:59:57.553Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Adoption.cs",
-              "DocumentMoniker": "G:\\AIUB\\AIUB\\11th Semester\\Advanced .Net\\Pet Adoption API\\Pet Adoption API\\DAL\\EF\\Tables\\Adoption.cs",
-              "RelativeDocumentMoniker": "DAL\\EF\\Tables\\Adoption.cs",
-              "ToolTip": "G:\\AIUB\\AIUB\\11th Semester\\Advanced .Net\\Pet Adoption API\\Pet Adoption API\\DAL\\EF\\Tables\\Adoption.cs",
-              "RelativeToolTip": "DAL\\EF\\Tables\\Adoption.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAgwBgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T14:59:09.226Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Web.config",
-              "DocumentMoniker": "G:\\AIUB\\AIUB\\11th Semester\\Advanced .Net\\Pet Adoption API\\Pet Adoption API\\Pet Adoption API\\Web.config",
-              "RelativeDocumentMoniker": "Pet Adoption API\\Web.config",
-              "ToolTip": "G:\\AIUB\\AIUB\\11th Semester\\Advanced .Net\\Pet Adoption API\\Pet Adoption API\\Pet Adoption API\\Web.config",
-              "RelativeToolTip": "Pet Adoption API\\Web.config",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-09-19T14:42:18.833Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "PAcontext.cs",
-              "DocumentMoniker": "G:\\AIUB\\AIUB\\11th Semester\\Advanced .Net\\Pet Adoption API\\Pet Adoption API\\DAL\\EF\\PAcontext.cs",
-              "RelativeDocumentMoniker": "DAL\\EF\\PAcontext.cs",
-              "ToolTip": "G:\\AIUB\\AIUB\\11th Semester\\Advanced .Net\\Pet Adoption API\\Pet Adoption API\\DAL\\EF\\PAcontext.cs",
-              "RelativeToolTip": "DAL\\EF\\PAcontext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T14:35:53.086Z",
+              "WhenOpened": "2025-09-20T14:03:30.163Z",
               "EditorCaption": ""
             }
           ]
