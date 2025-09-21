@@ -41,5 +41,13 @@ namespace DAL
         {
             return new FavoriteRepo();
         }
+
+        public static IRepo<Notification, int, bool> NotificationData()
+        {
+            return new NotificationRepo();
+        }
+
+
+
     }
 }

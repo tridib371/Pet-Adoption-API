@@ -94,7 +94,10 @@
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\AdoptionController.cs" />
     <Compile Include="Controllers\FavouriteController.cs" />
+    <Compile Include="Controllers\NotificationController.cs" />
     <Compile Include="Controllers\PetController.cs" />
+    <Compile Include="Controllers\RecommendationController.cs" />
+    <Compile Include="Controllers\ReportController.cs" />
     <Compile Include="Controllers\ShelterController.cs" />
     <Compile Include="Controllers\UserController.cs" />
     <Compile Include="Global.asax.cs">

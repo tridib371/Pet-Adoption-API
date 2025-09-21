@@ -7,11 +7,8 @@ namespace BLL.DTOs
         public int AdoptionId { get; set; }
         public int UserId { get; set; }
         public int PetId { get; set; }
-        public DateTime AdoptionDate { get; set; }
-        public string Status { get; set; }
-        public DateTime UpdatedAt { get; set; }
-        public DateTime CreatedAt { get; set; }
-
-
+        public string Status { get; set; } // Pending, Approved, Rejected, Completed
+        public DateTime RequestDate { get; set; }
+        public DateTime? DecisionDate { get; set; }
     }
 }

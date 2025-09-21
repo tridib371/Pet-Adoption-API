@@ -16,7 +16,10 @@ namespace DAL.EF
         public DbSet<Pet> Pets { get; set; }
         public DbSet<Adoption> Adoptions { get; set; }
         public DbSet<Favorite> Favorites { get; set; }
+        public DbSet<Notification> Notifications { get; set; }
 
-       
+
+
+
     }
 }

@@ -56,6 +56,7 @@
     <Compile Include="EF\PAcontext.cs" />
     <Compile Include="EF\Tables\Adoption.cs" />
     <Compile Include="EF\Tables\Favorite.cs" />
+    <Compile Include="EF\Tables\Notification.cs" />
     <Compile Include="EF\Tables\Pet.cs" />
     <Compile Include="EF\Tables\Shelter.cs" />
     <Compile Include="EF\Tables\User.cs" />
@@ -69,10 +70,15 @@
     <Compile Include="Migrations\202509201129057_UpdateShelterDb.Designer.cs">
       <DependentUpon>202509201129057_UpdateShelterDb.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202509211314543_AddNotificationTable.cs" />
+    <Compile Include="Migrations\202509211314543_AddNotificationTable.Designer.cs">
+      <DependentUpon>202509211314543_AddNotificationTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repo\AdoptionRepo.cs" />
     <Compile Include="Repo\FavouriteRepo.cs" />
+    <Compile Include="Repo\NotificationRepo.cs" />
     <Compile Include="Repo\PetRepo.cs" />
     <Compile Include="Repo\ShelterRepo.cs" />
     <Compile Include="Repo\UserRepo.cs" />
@@ -87,6 +93,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202509201129057_UpdateShelterDb.resx">
       <DependentUpon>202509201129057_UpdateShelterDb.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202509211314543_AddNotificationTable.resx">
+      <DependentUpon>202509211314543_AddNotificationTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup />

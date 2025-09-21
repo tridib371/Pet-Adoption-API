@@ -4,6 +4,7 @@ using DAL;
 using DAL.EF.Tables;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace BLL.Services
 {
@@ -47,5 +48,31 @@ namespace BLL.Services
         {
             return DataAccessFactory.PetData().Delete(id);
         }
+
+        public static List<PetDTO> Search(PetDTO filter)
+        {
+            var pets = GetMapper().Map<List<PetDTO>>(DataAccessFactory.PetData().Get());
+
+            if (!string.IsNullOrEmpty(filter.Name))
+                pets = pets.Where(p => p.Name.ToLower().Contains(filter.Name.ToLower())).ToList();
+
+            if (filter.Age > 0)
+                pets = pets.Where(p => p.Age == filter.Age).ToList();
+
+            if (!string.IsNullOrEmpty(filter.Category))
+                pets = pets.Where(p => p.Category.ToLower() == filter.Category.ToLower()).ToList();
+
+            if (!string.IsNullOrEmpty(filter.Gender))
+                pets = pets.Where(p => p.Gender.ToLower() == filter.Gender.ToLower()).ToList();
+
+            if (!string.IsNullOrEmpty(filter.Breed))
+                pets = pets.Where(p => p.Breed.ToLower().Contains(filter.Breed.ToLower())).ToList();
+
+            if (filter.IsAdopted)
+                pets = pets.Where(p => p.IsAdopted == filter.IsAdopted).ToList();
+
+            return pets;
+        }
+
     }
 }

@@ -54,26 +54,6 @@ namespace Pet_Adoption_API.Controllers
             }
         }
 
-        [HttpPut]
-        [Route("api/adoption/update")]
-        public HttpResponseMessage Update(AdoptionDTO adoption)
-        {
-            try
-            {
-                if (adoption != null)
-                {
-                    var updated = AdoptionService.Update(adoption);
-                    if (updated != null)
-                        return Request.CreateResponse(HttpStatusCode.OK, updated);
-                    return Request.CreateResponse(HttpStatusCode.NotFound, "Adoption record not found or update failed");
-                }
-                return Request.CreateResponse(HttpStatusCode.BadRequest, "Invalid adoption data");
-            }
-            catch (Exception ex)
-            {
-                return Request.CreateResponse(HttpStatusCode.InternalServerError, new { Message = "An unexpected error occurred", Error = ex.Message });
-            }
-        }
 
         [HttpDelete]
         [Route("api/adoption/delete/{id:int}")]
@@ -85,6 +65,25 @@ namespace Pet_Adoption_API.Controllers
                 if (deleted)
                     return Request.CreateResponse(HttpStatusCode.OK, "Adoption record deleted successfully");
                 return Request.CreateResponse(HttpStatusCode.NotFound, "Adoption record not found or delete failed");
+            }
+            catch (Exception ex)
+            {
+                return Request.CreateResponse(HttpStatusCode.InternalServerError, new { Message = "An unexpected error occurred", Error = ex.Message });
+            }
+        }
+
+        // ---------------- Workflow Automation Endpoint ----------------
+        [HttpPatch]
+        [Route("api/adoption/status/{id:int}")]
+        public HttpResponseMessage UpdateStatus(int id, [FromBody] string newStatus)
+        {
+            try
+            {
+                var updated = AdoptionService.UpdateStatus(id, newStatus);
+                if (updated != null)
+                    return Request.CreateResponse(HttpStatusCode.OK, updated);
+
+                return Request.CreateResponse(HttpStatusCode.NotFound, "Adoption record not found or update failed");
             }
             catch (Exception ex)
             {

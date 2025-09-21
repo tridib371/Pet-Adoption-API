@@ -91,5 +91,23 @@ namespace Pet_Adoption_API.Controllers
                 return Request.CreateResponse(HttpStatusCode.InternalServerError, new { Message = "An unexpected error occurred", Error = ex.Message });
             }
         }
+
+
+        [HttpPost]
+        [Route("api/pet/search")]
+        public HttpResponseMessage Search(PetDTO filter)
+        {
+            try
+            {
+                var pets = PetService.Search(filter);
+                return Request.CreateResponse(HttpStatusCode.OK, pets);
+            }
+            catch (Exception ex)
+            {
+                return Request.CreateResponse(HttpStatusCode.InternalServerError, new { Message = "An unexpected error occurred", Error = ex.Message });
+            }
+        }
+
+
     }
 }

@@ -47,13 +47,19 @@
     <Compile Include="Class1.cs" />
     <Compile Include="DTOs\AdoptionDTO.cs" />
     <Compile Include="DTOs\FavouriteDTO.cs" />
+    <Compile Include="DTOs\NotificationDTO.cs" />
     <Compile Include="DTOs\PetDTO.cs" />
+    <Compile Include="DTOs\RecommendationDTO.cs" />
+    <Compile Include="DTOs\ReportDTO.cs" />
     <Compile Include="DTOs\ShelterDTO.cs" />
     <Compile Include="DTOs\UserDTO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\AdoptionService.cs" />
     <Compile Include="Services\FavoriteService.cs" />
+    <Compile Include="Services\NotificationService.cs" />
     <Compile Include="Services\PetService.cs" />
+    <Compile Include="Services\RecommendationService.cs" />
+    <Compile Include="Services\ReportService.cs" />
     <Compile Include="Services\ShelterService.cs" />
     <Compile Include="Services\UserService.cs" />
   </ItemGroup>
