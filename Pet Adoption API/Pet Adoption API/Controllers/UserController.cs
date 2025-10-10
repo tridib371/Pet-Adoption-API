@@ -115,6 +115,8 @@ namespace Pet_Adoption_API.Controllers
                 });
             }
         }
+
+
         [HttpPatch]
         [Route("api/user/patch/{id:int}")]
         public HttpResponseMessage Patch(int id, UserDTO user)

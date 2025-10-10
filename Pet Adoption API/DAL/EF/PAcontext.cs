@@ -19,7 +19,5 @@ namespace DAL.EF
         public DbSet<Notification> Notifications { get; set; }
 
 
-
-
     }
 }

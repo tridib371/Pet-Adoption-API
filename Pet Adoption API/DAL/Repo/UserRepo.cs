@@ -46,10 +46,9 @@ namespace DAL.Repos
 
         public User Update(User obj)
         {
-            var exobj = Get(obj.UserId); // tracked entity
+            var exobj = Get(obj.UserId); 
             if (exobj == null) return null;
 
-            // Update only fields explicitly
             exobj.FullName = obj.FullName;
             exobj.Email = obj.Email;
             exobj.PhoneNumber = obj.PhoneNumber;
@@ -63,10 +62,9 @@ namespace DAL.Repos
 
         public User Patch(int id, User obj)
         {
-            var exobj = Get(id); // tracked entity
+            var exobj = Get(id); 
             if (exobj == null) return null;
 
-            // Update only non-null fields
             if (!string.IsNullOrEmpty(obj.FullName)) exobj.FullName = obj.FullName;
             if (!string.IsNullOrEmpty(obj.Email)) exobj.Email = obj.Email;
             if (!string.IsNullOrEmpty(obj.PhoneNumber)) exobj.PhoneNumber = obj.PhoneNumber;

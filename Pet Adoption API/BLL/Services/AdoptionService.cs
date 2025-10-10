@@ -41,7 +41,7 @@ namespace BLL.Services
             return DataAccessFactory.AdoptionData().Delete(id);
         }
 
-        // ---------------- Workflow Automation ----------------
+        // Workflow Automation
         public static AdoptionDTO UpdateStatus(int adoptionId, string newStatus)
         {
             var adoption = DataAccessFactory.AdoptionData().Get(adoptionId);
@@ -49,6 +49,7 @@ namespace BLL.Services
 
             adoption.Status = newStatus;
             adoption.DecisionDate = DateTime.Now;
+
 
             // Trigger: If Approved, mark pet as adopted
             if (newStatus == "Approved")

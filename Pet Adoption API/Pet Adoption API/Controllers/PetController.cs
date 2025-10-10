@@ -93,6 +93,9 @@ namespace Pet_Adoption_API.Controllers
         }
 
 
+
+        // Search or Filtering
+
         [HttpPost]
         [Route("api/pet/search")]
         public HttpResponseMessage Search(PetDTO filter)

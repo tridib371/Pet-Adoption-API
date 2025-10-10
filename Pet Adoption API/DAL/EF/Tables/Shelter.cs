@@ -15,17 +15,17 @@ namespace DAL.EF.Tables
         [StringLength(100)]
         public string Name { get; set; }
 
-        [Required]  // Make Address required to avoid validation errors
+        [Required] 
         [Column(TypeName = "varchar")]
         [StringLength(255)]
         public string Address { get; set; }
 
-        [Required]  // Make Phone required
+        [Required] 
         [Column(TypeName = "varchar")]
         [StringLength(20)]
         public string Phone { get; set; }
 
-        [Required]  // Make Email required
+        [Required] 
         [Column(TypeName = "varchar")]
         [StringLength(100)]
         public string Email { get; set; }

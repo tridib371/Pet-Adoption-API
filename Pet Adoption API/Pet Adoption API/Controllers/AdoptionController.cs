@@ -72,7 +72,10 @@ namespace Pet_Adoption_API.Controllers
             }
         }
 
-        // ---------------- Workflow Automation Endpoint ----------------
+
+
+        // Workflow Automation Endpoint
+
         [HttpPatch]
         [Route("api/adoption/status/{id:int}")]
         public HttpResponseMessage UpdateStatus(int id, [FromBody] string newStatus)

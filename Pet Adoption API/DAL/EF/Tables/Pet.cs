@@ -32,7 +32,7 @@ namespace DAL.EF.Tables
         [Required]
         [Column(TypeName = "varchar")]
         [StringLength(50)]
-        public string Category { get; set; } // Dog, Cat, Bird, etc.
+        public string Category { get; set; }
 
         [Required]
         public bool IsAdopted { get; set; } = false;

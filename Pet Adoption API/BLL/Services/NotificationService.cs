@@ -31,7 +31,7 @@ namespace BLL.Services
             return GetMapper().Map<List<NotificationDTO>>(DataAccessFactory.NotificationData().Get());
         }
 
-        // 🔹 Get only unread notifications
+        // Get only unread notifications
         public static List<NotificationDTO> GetUnread()
         {
             var allNotifs = DataAccessFactory.NotificationData().Get();

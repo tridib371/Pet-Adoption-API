@@ -25,7 +25,9 @@ namespace Pet_Adoption_API.Controllers
             return Request.CreateResponse(HttpStatusCode.OK, NotificationService.GetAll());
         }
 
-        // 🔹 Get only unread notifications
+
+        // Get only unread notifications
+
         [HttpGet]
         [Route("api/notification/unread")]
         public HttpResponseMessage GetUnread()
@@ -33,7 +35,7 @@ namespace Pet_Adoption_API.Controllers
             return Request.CreateResponse(HttpStatusCode.OK, NotificationService.GetUnread());
         }
 
-        [HttpPut] // should be PUT, not GET
+        [HttpPut] 
         [Route("api/notification/read/{id:int}")]
         public HttpResponseMessage MarkAsRead(int id)
         {
